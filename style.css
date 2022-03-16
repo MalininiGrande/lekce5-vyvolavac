@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Paytone+One&subset=latin-ext');
 
-/* Tady je magie a jednorožci */
 html { box-sizing: border-box; }
 *, ::before, :after { box-sizing: inherit; }
-
 
 body {
 	margin: 0;
@@ -24,7 +22,6 @@ h1, h2, h3 {
 	font-weight: regular;
 }
 
-
 h1 {
 	margin-top: 0;
 	font-size: 60px;
@@ -35,7 +32,6 @@ h1 {
 h2 {
 	margin-bottom: 10px;
 }
-
 
 #vyherka {
 	width: 550px;
@@ -55,7 +51,6 @@ h2 {
 	font-size: 20px;
 	color: #3b518d;
 }
-
 
 .tlacitko {
 	margin-top: -20px;
