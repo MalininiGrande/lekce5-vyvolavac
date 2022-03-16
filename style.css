@@ -74,3 +74,27 @@ h2 {
 	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.4);
 	transform: translateY(3px);
 }
+
+
+.butonek {
+	margin-top: 20px;
+	padding: 20px;
+	font-family: 'Paytone One', sans-serif;
+	font-size: 24px;
+	color: white;
+	border: 0;
+	border-radius: 20px;
+	background: #ff0844 linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+	outline: 0;
+}
+
+
+.butonek:hover {
+	box-shadow: 0 6px 14px rgba(0, 0, 0, 0.18);
+	transform: translateY(-2px);
+}
+
+.butonek:active {
+	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.4);
+	transform: translateY(3px);
