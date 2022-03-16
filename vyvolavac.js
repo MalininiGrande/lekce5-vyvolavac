@@ -28,11 +28,15 @@ let jmena = [
 ];
 
 let tazenaJmena = [];
+let points = document.querySelector(".points");
+let score = 1;
+
 
 function tahnoutJmeno() {
     if (jmena.length === 0) {
         return;
     }
+   
 
     // Generujeme náhodný index
     let vyherniIndex = Math.floor(Math.random() * jmena.length);
@@ -44,7 +48,8 @@ function tahnoutJmeno() {
     jmena.splice(vyherniIndex, 1);
 
     // Výherní jméno si uložíme do pole k ostatním výherním
-    tazenaJmena.push(vyherniJmeno);
+    tazenaJmena.unshift(vyherniJmeno);
+
 
     let vyherce = document.querySelector('#vyherka');
     vyherce.textContent = vyherniJmeno;
@@ -52,3 +57,11 @@ function tahnoutJmeno() {
     let seznam = document.querySelector('#seznam');
     seznam.textContent = tazenaJmena;
 }
+
+function skore() {
+    points.innerHTML = score++;
+  };
+
+function restart() {
+    document.location.reload();
+  }
